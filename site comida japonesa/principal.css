@@ -1,0 +1,173 @@
+body{
+	background:url(img1.jpg);
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-color:#000;
+}
+div#topo{
+	width:100%;
+	height:25%;
+	margin:0 auto;
+}
+#logo ul{
+	width:500px;
+	height:50px;
+	float:left;
+	font-size:30px;
+	padding:15px 15px 0 0;
+	margin:10px 20px;
+}
+#logo ul{
+	text-decoration:none;
+	opacity:0.6;
+	color:#fff;
+}
+#logo ul:hover{
+	opacity:100;
+	font-size:35px;
+	color:#000 ;
+	box-shadow: 15px 10px 10px -5px #333;
+}
+.menu ul{
+	padding:30px 0 0 0;
+}
+.menu ul li{
+	color:black;
+	float:left;
+	width:160px;
+	height:40px;
+	display:inline-block;
+	text-align:center;
+	line-height:40px;
+	font-size:25px;
+}
+.menu li:hover{
+	border-bottom: 3px solid #f77f1d;
+	padding-bottom: 3px;
+	box-shadow: 15px 10px 10px -3px #333;
+	font-size: 30px;
+}
+li#selecionado {
+		background-color:#f77f1d;
+		border-bottom: 3px solid #f77f1d;
+	padding-bottom: 3px;
+	box-shadow: 15px 10px 10px -3px #333;
+	
+}
+.menu a{
+	text-decoration:none;
+	color:#fff;
+	
+}
+div#conteudo{
+	text-align:center;
+	background-color: rgba(21,21,21,.7);
+	width:85%;
+	height: 650px;
+	margin-top:20px;
+	margin-left:7%;
+	margin-bottom:300px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 10px -5px #333;	
+	background-attachment:fixed;
+	padding:50px 370px * *;
+}
+div#interno{
+	margin: 50px;
+}
+div#conteudo_h{
+	text-align:center;
+	background-color: rgba(21,21,21,.7);
+	width:85%;
+	height: 2000px;
+	margin-top:20px;
+	margin-left:7%;
+	margin-bottom:300px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 10px -5px #333;	
+	background-attachment:fixed;
+	padding:50px 370px * *;
+}
+div#interno_h{
+	margin: 50px;
+}
+#conteudo_h img{
+	width:60%;
+	height: 20%;
+	border-radius: 15px;
+}
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+.button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+	
+}
+
+div#rodape{
+	background-color: rgba(21,21,21,.6);
+	width:100%;
+	height:12%;
+	position: fixed absolute ;
+	margin-bottom: 5px;
+	padding: 2px;
+	border-radius: 10px;
+}
+.rodape table img{
+	text-decoration:none;
+	width:27px;
+	height:27px;
+	float:left;
+	margin-left:50px;
+	margin-top:4px;
+}
+#rodape a{
+	text-decoration:none;
+}
